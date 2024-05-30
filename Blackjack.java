@@ -13,12 +13,10 @@ public class Blackjack extends CasinoFloor {
 
 	public Blackjack(int i) {
 		super(i);
-
 	}
 
 	public Blackjack() {
 		super();
-
 	}
 
 	private void makeDeck() {
@@ -57,7 +55,6 @@ public class Blackjack extends CasinoFloor {
 		if (value > 21 && aceCount > 0) {
 			value -= 10; // Convert one Ace from 11 to 1
 		}
-
 		return value;
 	}
 
@@ -164,7 +161,6 @@ public class Blackjack extends CasinoFloor {
 				playMore = true;
 			}
 		}
-
 		scanner.close();
 		System.out.println("Thank you for playing!");
 	}
