@@ -34,7 +34,7 @@ public class Blackjack extends CasinoFloor {
 	}
 
 	private void shuffle() {
-		Collections.shuffle((List<?>) deck);
+		Collections.shuffle(deck);
 	}
 
 	private Card giveCard() {
